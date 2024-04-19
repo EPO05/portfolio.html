@@ -1,0 +1,62 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: auto;
+}
+
+header{
+    background-color: blueviolet;
+    color: azure;
+    padding: 0%;
+}
+
+header h1{
+    margin: 0%;
+    font-size: medium;
+}
+
+nav{
+    height: 59px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(187, 255, 0);
+}
+
+nav ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+
+nav li{
+    margin: 0 20px 20px 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: grey;
+}
+
+main{
+    max-width: 40px;
+    margin: 0% auto;
+    padding: 20px;
+}
+
+section{
+    margin-bottom: 15px;
+}
+
+section h2{
+    margin: 0 0 20px 0;
+    font-size: 30px;
+}
+
+footer{
+    background-color: rgb(88, 107, 94);
+    color: rgb(249, 240, 255);
+    padding: 22px;
+    text-align: center;
+}
